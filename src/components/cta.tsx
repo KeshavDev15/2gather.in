@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Users, Calendar, Heart } from "lucide-react";
+import { ArrowRight, Users, Calendar, Heart, Apple, PlayCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 const fadeInUp = {
@@ -62,7 +62,10 @@ export function CTA() {
                 className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
               >
                 <motion.div {...scaleOnHover}>
-                  <Button size="lg" variant="secondary" className="w-full sm:w-auto group relative overflow-hidden">
+                  <Button 
+                    size="lg" 
+                    className="w-full sm:w-auto group relative overflow-hidden bg-secondary text-secondary-foreground hover:bg-secondary/90"
+                  >
                     <span className="relative z-10">Start Your First Meetup</span>
                     <motion.span
                       className="absolute inset-0 bg-white/20"
@@ -83,15 +86,48 @@ export function CTA() {
                   </Button>
                 </motion.div>
               </motion.div>
+
+              {/* App Download Section */}
+              <motion.div
+                variants={fadeInUp}
+                className="mt-12 pt-12 border-t border-primary-foreground/20"
+              >
+                <h3 className="text-xl font-semibold mb-4">Get the 2gather App</h3>
+                <p className="text-sm mb-6 opacity-80">
+                  Download our mobile app to discover and join events on the go
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <motion.div {...scaleOnHover}>
+                    <Button 
+                      size="lg" 
+                      variant="outline"
+                      className="w-full sm:w-auto border-primary-foreground/80 text-primary-foreground hover:bg-primary-foreground/10"
+                    >
+                      <Apple className="mr-2 h-5 w-5" />
+                      Download for iOS
+                    </Button>
+                  </motion.div>
+                  <motion.div {...scaleOnHover}>
+                    <Button 
+                      size="lg" 
+                      variant="outline"
+                      className="w-full sm:w-auto border-primary-foreground/80 text-primary-foreground hover:bg-primary-foreground/10"
+                    >
+                      <PlayCircle className="mr-2 h-5 w-5" />
+                      Get it on Android
+                    </Button>
+                  </motion.div>
+                </div>
+              </motion.div>
               
               {/* Stats */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center mt-16">
                 <motion.div 
                   className="flex flex-col items-center space-y-2 p-4 rounded-lg hover:bg-white/5 transition-colors"
                   {...statsAnimation}
                   transition={{ delay: 0.3 }}
                 >
-                  <Users className="h-8 w-4 opacity-80" />
+                  <Users className="h-8 w-8 opacity-80" />
                   <motion.div 
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
