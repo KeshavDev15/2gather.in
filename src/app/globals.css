@@ -156,3 +156,135 @@ body {
 .card-glow:hover {
   box-shadow: 0 0 30px hsl(var(--primary) / 0.2);
 }
+
+/* Legal pages consistent styling */
+.legal-page-bg {
+  background: linear-gradient(135deg, 
+    hsl(var(--primary) / 0.05) 0%, 
+    hsl(var(--background)) 50%, 
+    hsl(var(--primary) / 0.03) 100%);
+}
+
+.legal-card {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  box-shadow: 0 4px 6px -1px hsl(var(--foreground) / 0.1), 
+              0 2px 4px -1px hsl(var(--foreground) / 0.06);
+}
+
+.legal-title {
+  color: hsl(var(--foreground));
+  background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary) / 0.7));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.legal-section-title {
+  color: hsl(var(--foreground));
+  border-bottom: 2px solid hsl(var(--primary) / 0.2);
+  padding-bottom: 0.5rem;
+}
+
+.legal-text {
+  color: hsl(var(--muted-foreground));
+  line-height: 1.7;
+}
+
+.legal-link {
+  color: hsl(var(--primary));
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.2s ease;
+}
+
+.legal-link:hover {
+  border-bottom-color: hsl(var(--primary));
+}
+
+.legal-highlight-box {
+  background: hsl(var(--muted));
+  border: 1px solid hsl(var(--border));
+  border-left: 4px solid hsl(var(--primary));
+  padding: 1rem;
+  border-radius: calc(var(--radius) - 2px);
+}
+
+.contact-form-bg {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  box-shadow: 0 10px 25px -5px hsl(var(--primary) / 0.1), 
+              0 10px 10px -5px hsl(var(--primary) / 0.04);
+}
+
+.form-input {
+  background: hsl(var(--background));
+  border: 1px solid hsl(var(--border));
+  color: hsl(var(--foreground));
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: hsl(var(--primary));
+  box-shadow: 0 0 0 3px hsl(var(--primary) / 0.1);
+}
+
+.btn-primary {
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: hsl(var(--primary) / 0.9);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px hsl(var(--primary) / 0.3);
+}
+
+.btn-primary:disabled {
+  background: hsl(var(--muted));
+  color: hsl(var(--muted-foreground));
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* App download section styling */
+.app-download-bg {
+  background: linear-gradient(135deg, 
+    hsl(var(--primary) / 0.05) 0%, 
+    hsl(var(--background)) 50%, 
+    hsl(var(--primary) / 0.03) 100%);
+}
+
+.app-store-btn {
+  background: #000000;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.app-store-btn:hover {
+  background: #1a1a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.phone-mockup-glow {
+  box-shadow: 0 0 50px hsl(var(--primary) / 0.3),
+              0 0 100px hsl(var(--primary) / 0.1);
+}
+
+.app-feature-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.app-feature-card:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateX(5px);
+}

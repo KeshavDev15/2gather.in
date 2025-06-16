@@ -3,6 +3,7 @@ import { Features } from "@/components/features";
 import { HowItWorks } from "@/components/how-it-works";
 import { Testimonials } from "@/components/testimonials";
 import { CTA } from "@/components/cta";
+import { AppDownload } from "@/components/app-download";
 import { FAQ } from "@/components/faq";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
@@ -27,6 +28,7 @@ export default function Home() {
       <HowItWorks />
       <Testimonials />
       <CTA />
+      <AppDownload />
       <FAQ />
       <Footer />
     </main>
