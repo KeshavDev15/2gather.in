@@ -155,7 +155,7 @@ export default function PrivacyPolicy() {
                   Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information.
                 </p>
                 <p>
-                  To request to review, update, or delete your personal information, please visit: <a href="/contact" className="legal-link">http://www.2gather.in/contact-us</a>.
+                  To request to review, update, or delete your personal information, please visit: <a href="/contact" className="legal-link">https://www.2gather.in/contact-us</a>.
                 </p>
               </div>
             </section>
