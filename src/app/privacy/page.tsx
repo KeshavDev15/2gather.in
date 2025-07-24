@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - 2gather",
-  description: "Privacy Policy for 2gather - Learn how we collect, use, and protect your personal information.",
+  title: "Privacy Policy - GEETBIH TECH LLP",
+  description: "Privacy Policy for GEETBIH TECH LLP - Learn how we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPolicy() {
@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
             <section>
               <div className="space-y-4 legal-text">
                 <p>
-                  This Privacy Notice for 2gather (&lsquo;we&rsquo;, &lsquo;us&rsquo;, or &lsquo;our&rsquo;), describes how and why we might access, collect, store, use, and/or share (&lsquo;process&rsquo;) your personal information when you use our services (&lsquo;Services&rsquo;), including when you:
+                  This Privacy Notice for GEETBIH TECH LLP (&lsquo;we&rsquo;, &lsquo;us&rsquo;, or &lsquo;our&rsquo;), describes how and why we might access, collect, store, use, and/or share (&lsquo;process&rsquo;) your personal information when you use our services (&lsquo;Services&rsquo;), including when you:
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li>Download and use our mobile application (2gather), or any other application of ours that links to this Privacy Notice</li>
@@ -77,7 +77,6 @@ export default function PrivacyPolicy() {
                 </div>
               </div>
             </section>
-
             <section id="section1">
               <h2 className="text-2xl font-semibold mb-4 legal-section-title">
                 1. What Information Do We Collect?
@@ -136,7 +135,7 @@ export default function PrivacyPolicy() {
                 <p>If you have questions or comments about this notice, you may email us at <a href="mailto:support@2gather.in" className="legal-link">support@2gather.in</a> or contact us by post at:</p>
                 <div className="legal-highlight-box">
                   <p>
-                    2gather<br />
+                    GEETBIH TECH LLP<br />
                     Prabhat Residency 3rd floor<br />
                     Mangal Pandey Road<br />
                     Siliguri, West Bengal 734001<br />
