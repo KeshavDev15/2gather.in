@@ -288,7 +288,7 @@ export default function TermsAndConditions() {
                 <p>In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:</p>
                 <div className="legal-highlight-box">
                   <p>
-                    <strong>2gather</strong><br />
+                    <strong>GEETBIH TECH LLP</strong><br />
                     Prabhat Residency 3rd floor<br />
                     Mangal Pandey Road Siliguri<br />
                     Siliguri, West Bengal 734001<br />

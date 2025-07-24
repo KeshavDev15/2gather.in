@@ -135,7 +135,7 @@ export default function PrivacyPolicy() {
                 <p>If you have questions or comments about this notice, you may email us at <a href="mailto:support@2gather.in" className="legal-link">support@2gather.in</a> or contact us by post at:</p>
                 <div className="legal-highlight-box">
                   <p>
-                    2gather<br />
+                    GEETBIH TECH LLP<br />
                     Prabhat Residency 3rd floor<br />
                     Mangal Pandey Road<br />
                     Siliguri, West Bengal 734001<br />
