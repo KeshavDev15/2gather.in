@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions - 2gather",
-  description: "Terms and Conditions for 2gather - Learn about the rules and guidelines for using our platform.",
+  title: "Terms and Conditions - GEETBIH TECH LLP",
+  description: "Terms and Conditions for GEETBIH TECH LLP - Learn about the rules and guidelines for using our platform.",
 };
 
 export default function TermsAndConditions() {
@@ -24,7 +24,7 @@ export default function TermsAndConditions() {
               </h2>
               <div className="space-y-4 legal-text">
                 <p>
-                  We are 2gather (&lsquo;Company&rsquo;, &lsquo;we&rsquo;, &lsquo;us&rsquo;, or &lsquo;our&rsquo;), a company registered in India at Prabhat Residency 3rd floor, Mangal Pandey Road Siliguri, Siliguri, West Bengal 734001.
+                  We are GEETBIH TECH LLP (&lsquo;Company&rsquo;, &lsquo;we&rsquo;, &lsquo;us&rsquo;, or &lsquo;our&rsquo;), a company registered in India at Prabhat Residency 3rd floor, Mangal Pandey Road Siliguri, Siliguri, West Bengal 734001.
                 </p>
                 <p>
                   We operate the website <a href="http://www.2gather.in" className="legal-link">http://www.2gather.in</a> (the &lsquo;Site&rsquo;), the mobile application 2gather (the &lsquo;App&rsquo;), as well as any other related products and services that refer or link to these legal terms (the &lsquo;Legal Terms&rsquo;) (collectively, the &lsquo;Services&rsquo;).
@@ -33,7 +33,7 @@ export default function TermsAndConditions() {
                   You can contact us by phone at <a href="tel:+919564484426" className="legal-link">+91 95644 84426</a>, email at <a href="mailto:support@2gather.in" className="legal-link">support@2gather.in</a>, or by mail to Prabhat Residency 3rd floor, Mangal Pandey Road Siliguri, Siliguri, West Bengal 734001, India.
                 </p>
                 <p>
-                  These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (&lsquo;you&rsquo;), and 2gather, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong>
+                  These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (&lsquo;you&rsquo;), and GEETBIH TECH LLP, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong>
                 </p>
                 <p>
                   The Services are intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Services.
@@ -222,7 +222,7 @@ export default function TermsAndConditions() {
               </h2>
               <div className="space-y-4 text-gray-700 dark:text-gray-300">
                 <p>
-                  These Legal Terms shall be governed by and defined following the laws of India. 2gather and yourself irrevocably consent that the courts of India shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.
+                  These Legal Terms shall be governed by and defined following the laws of India. GEETBIH TECH LLP and yourself irrevocably consent that the courts of India shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.
                 </p>
               </div>
             </section>
