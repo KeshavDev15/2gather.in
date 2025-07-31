@@ -68,7 +68,7 @@ export default function ChildSafetyPolicy() {
                   <strong>How to Report:</strong>
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Tap the "Report" option available on user profiles, posts, or messages</li>
+                  <li>Tap the &quot;Report&quot; option available on user profiles, posts, or messages</li>
                   <li>Or email us directly at <a href="mailto:support@2gatherapp.com" className="legal-link">support@2gatherapp.com</a></li>
                 </ul>
                 <p>
