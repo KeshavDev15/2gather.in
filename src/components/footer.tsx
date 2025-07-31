@@ -35,7 +35,8 @@ const footerLinks = {
     { name: "Careers", href: "#" },
     { name: "Contact", href: "/contact" },
     { name: "Privacy Policy", href: "/privacy" },
-    { name: "Terms of Service", href: "/terms" }
+    { name: "Terms of Service", href: "/terms" },
+    { name: "Child Safety Policy", href: "/child-safety-policy" }
   ]
 };
 
