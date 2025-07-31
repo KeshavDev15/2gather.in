@@ -36,7 +36,7 @@ export default function ChildSafetyPolicy() {
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li>Child Sexual Abuse Material (CSAM), including images, videos, text, or links that involve or depict sexual exploitation of children.</li>
-                  <li>Grooming behaviors, including attempts to manipulate or deceive minors for sexual purposes.</li>
+                  <li>Grooming behaviours, including attempts to manipulate or deceive minors for sexual purposes.</li>
                   <li>Sexual solicitation, harassment, or exploitation involving children.</li>
                   <li>Any content or conduct that violates child protection laws or our community standards.</li>
                 </ul>
@@ -69,7 +69,7 @@ export default function ChildSafetyPolicy() {
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li>Tap the &quot;Report&quot; option available on user profiles, posts, or messages</li>
-                  <li>Or email us directly at <a href="mailto:support@2gatherapp.com" className="legal-link">support@2gatherapp.com</a></li>
+                  <li>Or email us directly at <a href="mailto:support@2gather.in" className="legal-link">support@2gather.in</a></li>
                 </ul>
                 <p>
                   All reports are reviewed by our moderation team as a high priority.
